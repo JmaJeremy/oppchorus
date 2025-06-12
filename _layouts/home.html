@@ -11,15 +11,18 @@ layout: default
     <ul class="post-list">
       {% for post in site.posts %}
         <li style="margin-bottom:2em;">
-          {% if post.featured_image %}
-            <img src="{{ post.featured_image }}" alt="Featured image for {{ post.title }}" style="max-width:200px; display:block; margin-bottom:0.5em;">
-          {% endif %}
           <h2>
             <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
           </h2>
+          {% if post.featured_image %}
+            <a href="{{ post.url | relative_url }}">
+              <img src="{{ post.featured_image }}" alt="Featured image for {{ post.title }}" style="max-width:200px; display:block; margin-bottom:0.5em;">
+            </a>
+          {% endif %}
           <p>
             {{ post.excerpt | strip_html | truncate: 160 }}
           </p>
+          <a href="{{ post.url | relative_url }}" class="read-more">Read more</a>
         </li>
       {% endfor %}
     </ul>
