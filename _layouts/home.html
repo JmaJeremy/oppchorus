@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+<div class="home">
+  <h1 class="page-heading">{{ page.title | default: site.title }}</h1>
+
+  {{ content }}
+
+  {% if site.posts.size > 0 %}
+    <ul class="post-list">
+      {% for post in site.posts %}
+        <li style="margin-bottom:2em;">
+          {% if post.featured_image %}
+            <img src="{{ post.featured_image }}" alt="Featured image for {{ post.title }}" style="max-width:200px; display:block; margin-bottom:0.5em;">
+          {% endif %}
+          <h2>
+            <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+          </h2>
+          <p>
+            {{ post.excerpt | strip_html | truncate: 160 }}
+          </p>
+        </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+</div>

@@ -1,0 +1,18 @@
+<a href="{{ site.baseurl }}/">
+  <img src="{{ site.baseurl }}/opp%20chorus%20logo.png" alt="OPP Chorus Logo" style="max-height:80px; display:block; margin:0 auto;">
+</a>
+<div style="width: 100%; padding: 0 2rem; box-sizing: border-box;">
+  <div style="display: flex; align-items: center; justify-content: space-between; width: 100%;">
+    <h1 class="site-title" style="margin: 0; text-align: left;">
+      <a href="{{ site.baseurl }}/">{{ site.title | escape }}</a>
+    </h1>
+    <nav class="site-nav" style="margin-left: auto; text-align: right;">
+      <a class="page-link" href="{{ site.baseurl }}/">Home</a>
+      {% for page in site.pages %}
+        {% if page.title and page.nav != false and page.url != '/' %}
+          <a class="page-link" href="{{ page.url | relative_url }}">{{ page.title }}</a>
+        {% endif %}
+      {% endfor %}
+    </nav>
+  </div>
+</div>
