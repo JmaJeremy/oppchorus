@@ -1,9 +1,62 @@
+<style>
+.header-logo {
+  max-height: 80px;
+  display: block;
+  margin: 0 auto 1em auto;
+}
+.wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 1em;
+}
+.header-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  flex-wrap: wrap;
+  position: relative;
+  z-index: 2;
+  background: #fff;
+  box-sizing: border-box;
+  margin-bottom: 2.5em; /* Increased margin to ensure separation from content */
+}
+.site-nav {
+  margin-left: auto;
+  text-align: right;
+  flex: 1 1 200px;
+  min-width: 180px;
+  z-index: 1;
+}
+@media (max-width: 700px) {
+  .header-flex {
+    flex-direction: column;
+    align-items: stretch;
+    margin-top: 0;
+    margin-bottom: 8.5em; /* Ensure margin on mobile too */
+  }
+  .site-nav {
+    display: block;
+    text-align: center !important;
+    margin: 0.5em 0 0 0;
+    flex: 1 1 100%;
+    min-width: 0;
+    order: 2;
+  }
+  .logo-container {
+    display: block;
+    clear: both;
+  }
+}
+</style>
+<div class="logo-container">
 <a href="{{ site.baseurl }}/">
-  <img src="{{ site.baseurl }}/opp%20chorus%20logo.png" alt="OPP Chorus Logo" style="max-height:80px; display:block; margin:0 auto;">
+  <img src="{{ site.baseurl }}/opp%20chorus%20logo.png" alt="OPP Chorus Logo" class="header-logo">
 </a>
+</div>
 <div class="wrapper">
-  <div style="display: flex; align-items: center; justify-content: space-between; width: 100%;">
-    <nav class="site-nav" style="margin-left: auto; text-align: right;">
+  <div class="header-flex">
+    <nav class="site-nav">
       <a class="page-link" href="{{ site.baseurl }}/">Home</a>
       {% for page in site.pages %}
         {% if page.title and page.nav != false and page.url != '/' %}
