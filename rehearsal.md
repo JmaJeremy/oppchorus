@@ -4,9 +4,24 @@ title: "Rehearsal Tracks"
 permalink: /rehearsal/
 ---
 
-Welcome to the Rehearsal Tracks page!
+<style>
+.rehearsal-section {
+  background: #f7f7f7;
+  border: 1px solid #222;
+  border-radius: 6px;
+  margin-bottom: 2em;
+  padding: 1em 1.5em;
+}
+.rehearsal-section summary {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+  cursor: pointer;
+}
+</style>
 
-<details>
+
+<details class="rehearsal-section">
   <summary>Soprano</summary>
   <table>
     <thead>
@@ -31,7 +46,7 @@ Welcome to the Rehearsal Tracks page!
   </table>
 </details>
 
-<details>
+<details class="rehearsal-section">
   <summary>Alto</summary>
   <table>
     <thead>
@@ -56,7 +71,7 @@ Welcome to the Rehearsal Tracks page!
   </table>
 </details>
 
-<details>
+<details class="rehearsal-section">
   <summary>Tenor</summary>
   <table>
     <thead>
@@ -81,7 +96,7 @@ Welcome to the Rehearsal Tracks page!
   </table>
 </details>
 
-<details>
+<details class="rehearsal-section">
   <summary>Bass</summary>
   <table>
     <thead>
@@ -106,7 +121,7 @@ Welcome to the Rehearsal Tracks page!
   </table>
 </details>
 
-<details>
+<details class="rehearsal-section">
   <summary>All Parts</summary>
   <table>
     <thead>
