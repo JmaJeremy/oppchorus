@@ -23,7 +23,7 @@ email: oppchorus@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   We are the OPP Chorus, a volunteer group of singers from the Ontario Provincial Police. 
   We sing at events across Ontario, and we are proud to support the OPP and our communities through music.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/oppchorus" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 #github_username:  jekyll

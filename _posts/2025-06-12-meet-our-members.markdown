@@ -3,7 +3,7 @@ layout: post
 title: "Meet our Members"
 date: 2025-06-12 15:00:00 -0400
 categories: members
-featured_image: /opp chorus logo.png
+featured_image: opp chorus logo.png
 published: true
 ---
 
