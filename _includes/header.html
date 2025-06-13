@@ -90,17 +90,32 @@
   }
   .hamburger {
     display: flex;
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    right: auto;
+    position: relative;
+    margin: 20px auto 2.5em auto; /* Center horizontally, add space below */
+    left: 0;
+    right: 0;
+    top: 0;
     z-index: 1001;
-    margin-bottom: 2.5em; /* Add extra space below hamburger */
   }
   .logo-container {
     display: block;
     clear: both;
     margin-top: 60px; /* Add extra space above logo for all screens */
+  }
+  .close-menu-btn {
+    display: block;
+    margin: 2.5em auto 0 auto;
+    font-size: 2em;
+    background: none;
+    border: none;
+    color: #333;
+    cursor: pointer;
+    font-weight: bold;
+    outline: none;
+    transition: color 0.2s;
+  }
+  .close-menu-btn:active, .close-menu-btn:focus {
+    color: #0077cc;
   }
 }
 </style>
@@ -127,6 +142,7 @@
           <a class="page-link" href="{{ page.url | relative_url }}">{{ page.title }}</a>
         {% endif %}
       {% endfor %}
+      <button class="close-menu-btn" aria-label="Close navigation" onclick="document.querySelector('.site-nav').classList.remove('open'); document.querySelector('.hamburger').setAttribute('aria-expanded','false');">&times;</button>
     </nav>
   </div>
 </div>
