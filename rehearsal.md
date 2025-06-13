@@ -54,84 +54,161 @@ permalink: /rehearsal/
 }
 </style>
 
+
 <details class="rehearsal-section">
   <summary>Soprano</summary>
   <div class="rehearsal-list">
+    
+    <div class="rehearsal-track">
+      <div class="track-title">Prends le temps (Soprano)</div>
+      <div><a href="{{ site.baseurl }}/music/Soprano/Prends%20le%20temps%20%28Soprano%29.mp3" download>Download</a></div>
+      <div><audio controls src="{{ site.baseurl }}/music/Soprano/Prends%20le%20temps%20%28Soprano%29.mp3"></audio></div>
+    </div>
+    
     <div class="rehearsal-track">
       <div class="track-title">Recorded by Sinatra (Soprano)</div>
-      <div><a href="{{ site.baseurl }}/music/Soprano/Recorded%20by%20Sinatra%20(Soprano).mp3" download>Download</a></div>
-      <div><audio controls src="{{ site.baseurl }}/music/Soprano/Recorded%20by%20Sinatra%20(Soprano).mp3"></audio></div>
+      <div><a href="{{ site.baseurl }}/music/Soprano/Recorded%20by%20Sinatra%20%28Soprano%29.mp3" download>Download</a></div>
+      <div><audio controls src="{{ site.baseurl }}/music/Soprano/Recorded%20by%20Sinatra%20%28Soprano%29.mp3"></audio></div>
     </div>
+    
+    <div class="rehearsal-track">
+      <div class="track-title">Thank You for the Music (Soprano)</div>
+      <div><a href="{{ site.baseurl }}/music/Soprano/Thank%20You%20for%20the%20Music%20%28Soprano%29.mp3" download>Download</a></div>
+      <div><audio controls src="{{ site.baseurl }}/music/Soprano/Thank%20You%20for%20the%20Music%20%28Soprano%29.mp3"></audio></div>
+    </div>
+    
     <div class="rehearsal-track">
       <div class="track-title">The Rhythm of Life (Soprano)</div>
-      <div><a href="{{ site.baseurl }}/music/Soprano/The%20Rhythm%20of%20Life%20(Soprano).mp3" download>Download</a></div>
-      <div><audio controls src="{{ site.baseurl }}/music/Soprano/The%20Rhythm%20of%20Life%20(Soprano).mp3"></audio></div>
+      <div><a href="{{ site.baseurl }}/music/Soprano/The%20Rhythm%20of%20Life%20%28Soprano%29.mp3" download>Download</a></div>
+      <div><audio controls src="{{ site.baseurl }}/music/Soprano/The%20Rhythm%20of%20Life%20%28Soprano%29.mp3"></audio></div>
     </div>
+    
   </div>
 </details>
 
 <details class="rehearsal-section">
   <summary>Alto</summary>
   <div class="rehearsal-list">
+    
+    <div class="rehearsal-track">
+      <div class="track-title">Prends le temps (Alto)</div>
+      <div><a href="{{ site.baseurl }}/music/Alto/Prends%20le%20temps%20%28Alto%29.mp3" download>Download</a></div>
+      <div><audio controls src="{{ site.baseurl }}/music/Alto/Prends%20le%20temps%20%28Alto%29.mp3"></audio></div>
+    </div>
+    
     <div class="rehearsal-track">
       <div class="track-title">Recorded by Sinatra (Alto)</div>
-      <div><a href="{{ site.baseurl }}/music/Alto/Recorded%20by%20Sinatra%20(Alto).mp3" download>Download</a></div>
-      <div><audio controls src="{{ site.baseurl }}/music/Alto/Recorded%20by%20Sinatra%20(Alto).mp3"></audio></div>
+      <div><a href="{{ site.baseurl }}/music/Alto/Recorded%20by%20Sinatra%20%28Alto%29.mp3" download>Download</a></div>
+      <div><audio controls src="{{ site.baseurl }}/music/Alto/Recorded%20by%20Sinatra%20%28Alto%29.mp3"></audio></div>
     </div>
+    
+    <div class="rehearsal-track">
+      <div class="track-title">Thank You for the Music (Alto)</div>
+      <div><a href="{{ site.baseurl }}/music/Alto/Thank%20You%20for%20the%20Music%20%28Alto%29.mp3" download>Download</a></div>
+      <div><audio controls src="{{ site.baseurl }}/music/Alto/Thank%20You%20for%20the%20Music%20%28Alto%29.mp3"></audio></div>
+    </div>
+    
     <div class="rehearsal-track">
       <div class="track-title">The Rhythm of Life (Alto)</div>
-      <div><a href="{{ site.baseurl }}/music/Alto/The%20Rhythm%20of%20Life%20(Alto).mp3" download>Download</a></div>
-      <div><audio controls src="{{ site.baseurl }}/music/Alto/The%20Rhythm%20of%20Life%20(Alto).mp3"></audio></div>
+      <div><a href="{{ site.baseurl }}/music/Alto/The%20Rhythm%20of%20Life%20%28Alto%29.mp3" download>Download</a></div>
+      <div><audio controls src="{{ site.baseurl }}/music/Alto/The%20Rhythm%20of%20Life%20%28Alto%29.mp3"></audio></div>
     </div>
+    
   </div>
 </details>
 
 <details class="rehearsal-section">
   <summary>Tenor</summary>
   <div class="rehearsal-list">
+    
+    <div class="rehearsal-track">
+      <div class="track-title">Prends le temps (Tenor)</div>
+      <div><a href="{{ site.baseurl }}/music/Tenor/Prends%20le%20temps%20%28Tenor%29.mp3" download>Download</a></div>
+      <div><audio controls src="{{ site.baseurl }}/music/Tenor/Prends%20le%20temps%20%28Tenor%29.mp3"></audio></div>
+    </div>
+    
     <div class="rehearsal-track">
       <div class="track-title">Recorded by Sinatra (Tenor)</div>
-      <div><a href="{{ site.baseurl }}/music/Tenor/Recorded%20by%20Sinatra%20(Tenor).mp3" download>Download</a></div>
-      <div><audio controls src="{{ site.baseurl }}/music/Tenor/Recorded%20by%20Sinatra%20(Tenor).mp3"></audio></div>
+      <div><a href="{{ site.baseurl }}/music/Tenor/Recorded%20by%20Sinatra%20%28Tenor%29.mp3" download>Download</a></div>
+      <div><audio controls src="{{ site.baseurl }}/music/Tenor/Recorded%20by%20Sinatra%20%28Tenor%29.mp3"></audio></div>
     </div>
+    
+    <div class="rehearsal-track">
+      <div class="track-title">Thank You for the Music (Tenor)</div>
+      <div><a href="{{ site.baseurl }}/music/Tenor/Thank%20You%20for%20the%20Music%20%28Tenor%29.mp3" download>Download</a></div>
+      <div><audio controls src="{{ site.baseurl }}/music/Tenor/Thank%20You%20for%20the%20Music%20%28Tenor%29.mp3"></audio></div>
+    </div>
+    
     <div class="rehearsal-track">
       <div class="track-title">The Rhythm of Life (Tenor)</div>
-      <div><a href="{{ site.baseurl }}/music/Tenor/The%20Rhythm%20of%20Life%20(Tenor).mp3" download>Download</a></div>
-      <div><audio controls src="{{ site.baseurl }}/music/Tenor/The%20Rhythm%20of%20Life%20(Tenor).mp3"></audio></div>
+      <div><a href="{{ site.baseurl }}/music/Tenor/The%20Rhythm%20of%20Life%20%28Tenor%29.mp3" download>Download</a></div>
+      <div><audio controls src="{{ site.baseurl }}/music/Tenor/The%20Rhythm%20of%20Life%20%28Tenor%29.mp3"></audio></div>
     </div>
+    
   </div>
 </details>
 
 <details class="rehearsal-section">
   <summary>Bass</summary>
   <div class="rehearsal-list">
+    
+    <div class="rehearsal-track">
+      <div class="track-title">Prends le temps (Bass)</div>
+      <div><a href="{{ site.baseurl }}/music/Bass/Prends%20le%20temps%20%28Bass%29.mp3" download>Download</a></div>
+      <div><audio controls src="{{ site.baseurl }}/music/Bass/Prends%20le%20temps%20%28Bass%29.mp3"></audio></div>
+    </div>
+    
     <div class="rehearsal-track">
       <div class="track-title">Recorded by Sinatra (Bass)</div>
-      <div><a href="{{ site.baseurl }}/music/Bass/Recorded%20by%20Sinatra%20(Bass).mp3" download>Download</a></div>
-      <div><audio controls src="{{ site.baseurl }}/music/Bass/Recorded%20by%20Sinatra%20(Bass).mp3"></audio></div>
+      <div><a href="{{ site.baseurl }}/music/Bass/Recorded%20by%20Sinatra%20%28Bass%29.mp3" download>Download</a></div>
+      <div><audio controls src="{{ site.baseurl }}/music/Bass/Recorded%20by%20Sinatra%20%28Bass%29.mp3"></audio></div>
     </div>
+    
+    <div class="rehearsal-track">
+      <div class="track-title">Thank You for the Music (Bass)</div>
+      <div><a href="{{ site.baseurl }}/music/Bass/Thank%20You%20for%20the%20Music%20%28Bass%29.mp3" download>Download</a></div>
+      <div><audio controls src="{{ site.baseurl }}/music/Bass/Thank%20You%20for%20the%20Music%20%28Bass%29.mp3"></audio></div>
+    </div>
+    
     <div class="rehearsal-track">
       <div class="track-title">The Rhythm of Life (Bass)</div>
-      <div><a href="{{ site.baseurl }}/music/Bass/The%20Rhythm%20of%20Life%20(Bass).mp3" download>Download</a></div>
-      <div><audio controls src="{{ site.baseurl }}/music/Bass/The%20Rhythm%20of%20Life%20(Bass).mp3"></audio></div>
+      <div><a href="{{ site.baseurl }}/music/Bass/The%20Rhythm%20of%20Life%20%28Bass%29.mp3" download>Download</a></div>
+      <div><audio controls src="{{ site.baseurl }}/music/Bass/The%20Rhythm%20of%20Life%20%28Bass%29.mp3"></audio></div>
     </div>
+    
   </div>
 </details>
 
 <details class="rehearsal-section">
   <summary>All Parts</summary>
   <div class="rehearsal-list">
+    
+    <div class="rehearsal-track">
+      <div class="track-title">Prends le temps (All Parts)</div>
+      <div><a href="{{ site.baseurl }}/music/AllParts/Prends%20le%20temps%20%28All%20Parts%29.mp3" download>Download</a></div>
+      <div><audio controls src="{{ site.baseurl }}/music/AllParts/Prends%20le%20temps%20%28All%20Parts%29.mp3"></audio></div>
+    </div>
+    
     <div class="rehearsal-track">
       <div class="track-title">Recorded by Sinatra (All Parts)</div>
-      <div><a href="{{ site.baseurl }}/music/AllParts/Recorded%20by%20Sinatra%20(All%20Parts).mp3" download>Download</a></div>
-      <div><audio controls src="{{ site.baseurl }}/music/AllParts/Recorded%20by%20Sinatra%20(All%20Parts).mp3"></audio></div>
+      <div><a href="{{ site.baseurl }}/music/AllParts/Recorded%20by%20Sinatra%20%28All%20Parts%29.mp3" download>Download</a></div>
+      <div><audio controls src="{{ site.baseurl }}/music/AllParts/Recorded%20by%20Sinatra%20%28All%20Parts%29.mp3"></audio></div>
     </div>
+    
+    <div class="rehearsal-track">
+      <div class="track-title">Thank You for the Music (All Parts)</div>
+      <div><a href="{{ site.baseurl }}/music/AllParts/Thank%20You%20for%20the%20Music%20%28All%20Parts%29.mp3" download>Download</a></div>
+      <div><audio controls src="{{ site.baseurl }}/music/AllParts/Thank%20You%20for%20the%20Music%20%28All%20Parts%29.mp3"></audio></div>
+    </div>
+    
     <div class="rehearsal-track">
       <div class="track-title">The Rhythm of Life (All Parts)</div>
-      <div><a href="{{ site.baseurl }}/music/AllParts/The%20Rhythm%20of%20Life%20(All%20Parts).mp3" download>Download</a></div>
-      <div><audio controls src="{{ site.baseurl }}/music/AllParts/The%20Rhythm%20of%20Life%20(All%20Parts).mp3"></audio></div>
+      <div><a href="{{ site.baseurl }}/music/AllParts/The%20Rhythm%20of%20Life%20%28All%20Parts%29.mp3" download>Download</a></div>
+      <div><audio controls src="{{ site.baseurl }}/music/AllParts/The%20Rhythm%20of%20Life%20%28All%20Parts%29.mp3"></audio></div>
     </div>
+    
   </div>
 </details>
+
 
 <!-- Add your rehearsal track links or content below -->
